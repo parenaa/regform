@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    label{
+        display: flex;
+        width: 15vw;
+    }
+    form{
+        width: 200%;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <h1 style="color: hsl(250, 47%, 47%); text-align: center;"><u>STUDENT REGISTRATION FORM</u></h1>
+    <form style="border: 2px solid hwb(250 35% 17%); 
+    background-color: hsl(250, 58%, 59%); color: white; width: 950px;" autocomplete="off">
+    <blockquote>
+    <div class="container">
+        <label for="fname" name="name">FIRST NAME</label>
+        <input type="text">(max 30 characters a-z and A-Z)
+    </div><br>
+
+    <div class="container">
+        <label for="lname" name="name">LAST NAME</label>
+        <input type="text">(max 30 characters a-z and A-Z)
+    </div><br>
+    <div class="container">
+        <label for="birth-date">DATE OF BIRTH</label>
+        <input type="date"><br><br>
+    </div><br>
+    <div class="container">
+        <label for="email">EMAIL ID</label>
+        <input type="text">
+    </div><br>
+    <div class="container">
+        <label for="number">MOBILE NUMBER</label>
+        <input type="number"> <p>(10 digit number)</p>
+    </div><br>
+    <div class="container">
+        <label for="gender">Gender</label>
+        <p>Male</p><input type="radio" name="Male">
+        <p>Female</p><input type="radio" name="Female">
+    </div><br>
+    <div class="container">
+        <label for="address">ADDRESS</label>
+        <textarea name="address" rows="3" cols="50"></textarea>
+    </div><br>
+    <div class="container">
+        <label for="city">CITY</label>
+        <input type="text">(max 30 characters a-z and A-Z)
+        </div><br>
+    <div class="container">
+        <label for="country">COUNTRY</label>
+        <input type="text" value="India">
+        </div><br>
+     <div class="container">
+        <label for="hobbies">HOBBIES</label>
+        <p>Drawing</p>
+        <input type="checkbox">
+        <p>Singing</p>
+        <input type="checkbox">
+        <p>Dancing</p>
+        <input type="checkbox">
+        <p>Sketching</p>
+        <input type="checkbox"><br>
+        <p>Others</p>
+        <input type="checkbox">
+        <input type="text">
+    </div><br>
+    <div class="container">
+        <label for="qualification">QUALIFICATION</label>
+        <table>
+            <tr>
+                <th>SI.No.</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Precentage</th>
+                <th>Years of Passing</th>
+            </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Graducation</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+
+        </table>
+    </div><br>
+
+    <div class="container">
+        <label for="courses">COURSES<br>APPLIED FOR</label>
+        <p>BCA</p>
+        <input type="radio">
+
+        <p>B.Com</p>
+        <input type="radio">
+
+        <p>B.Sc </p>
+        <input type="radio">
+
+        <p>B.A</p>
+        <input type="radio">
+    </div><br>
+
+        <div style="text-align:center;">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </div></blockquote>
+    </form>
+</body>
+</html>
